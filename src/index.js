@@ -7,4 +7,5 @@ const handleClick = () => {
     })
 };
 
-ReactDOM.render(<button onClick={handleClick}>login</button>, document.getElementById('root'));
+
+React.render(<button onClick={handleClick}>login</button>, document.getElementById('root'));
